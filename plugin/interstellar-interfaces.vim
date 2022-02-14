@@ -1,4 +1,4 @@
-function! Interstellar()
+function! s:Interstellar()
     execute "normal! (f(mz"
     execute 'normal! lvw"ky'
     execute "normal! (f(vi)"
@@ -9,4 +9,4 @@ function! Interstellar()
     execute "normal! `z\"kpli\<SPACE>\<ESC>\"op"
 endfunction
 
-command! Inter call Interstellar()
+command! Inter call s:Interstellar()
